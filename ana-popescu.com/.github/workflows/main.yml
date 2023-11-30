@@ -18,7 +18,7 @@ jobs:
       - name: Do everything and even more
         run: |
           git fetch origin master && git checkout origin/master
-          npm ci && npm run export
+          npm ci && npm run build
           cd out/ && tar --dereference --hard-dereference  -cvf artifact.tar * && zip github-pages artifact.tar
 
       - name: Upload pages artifacts
