@@ -4,7 +4,6 @@ export default function Resume() {
   return (
     <div className="flex justify-center w-full">
       <div className="flex flex-col items-center w-full sm:max-w-4xl pt-5 pb-20 gap-y-10">
-
         <div className="flex sm:justify-start w-full">
           <div className="flex flex-col items-end pl-3 pr-3 w-3/4 border-r-2 border-[#888888] border-opacity-50 sm:w-1/2">
             <div className="uppercase font-normal text-lg">contact</div>
@@ -71,6 +70,11 @@ export default function Resume() {
                 integrating new filters into their projects and optimizing them
                 in assembly language.
               </li>
+              <li>
+                Collaborated with the support team for various clients,
+                integrating new filters into their projects and optimizing them
+                in assembly language.
+              </li>
             </ul>
           </div>
         </div>
@@ -122,15 +126,9 @@ export default function Resume() {
                 language
               </li>
               <li>Version control: Git, SVN</li>
-              <li>
-                Deep Learning frameworks: TensorFlow, PyTorch 
-              </li>
-              <li>
-                Algorithm development and optimization
-              </li>
-              <li>
-                Agile methodologies
-              </li>
+              <li>Deep Learning frameworks: TensorFlow, PyTorch</li>
+              <li>Algorithm development and optimization</li>
+              <li>Agile methodologies</li>
             </ul>
           </div>
         </div>
