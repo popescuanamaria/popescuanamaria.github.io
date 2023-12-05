@@ -38,14 +38,14 @@ export default function Resume() {
             </div>
             <div className="font-normal text-lg pb-3">Movidius</div>
             <div className="font-normal text-lg opacity-70 pb-3">
-              June 2013 - September 2013
+              June 2013 - Octomber 2013
             </div>
             <ul className="list-disc">
               <li>
-                I participated in an HDR project utilising a designated image
+                Participated in an HDR project utilizing a designated image
                 sensor. The objective was to achieve the highest-quality image,
                 and my responsibilities included conducting research and
-                analysing outcomes in various scenarios. This involved
+                analyzing outcomes in various scenarios. This involved
                 incorporating new implementations for different filters in the
                 pipeline, adjusting parameters, and more.
               </li>
@@ -60,20 +60,20 @@ export default function Resume() {
             </div>
             <div className="font-normal text-lg pb-3">Movidius</div>
             <div className="font-normal text-lg opacity-70 pb-3">
-              2013 - 2015
+              Octomber 2013 - November 2016
             </div>
             <ul className="list-disc">
               <li>
                 Developed diverse image processing filters in C and optimized
-                them using assembly language for a particular processor.
-                Collaborated with the support team for various clients,
-                integrating new filters into their projects and optimizing them
-                in assembly language.
+                them using assembly language for our Movidius proprietary
+                processor.
               </li>
               <li>
-                Collaborated with the support team for various clients,
-                integrating new filters into their projects and optimizing them
-                in assembly language.
+                Collaborated closely with the support team to enhance projects
+                for diverse clients, incorporating new filters and optimizing
+                code in assembly language. Additionally, provided on-site
+                support for clients, ensuring seamless integration and optimal
+                performance of the implemented enhancements.
               </li>
             </ul>
           </div>
@@ -84,31 +84,36 @@ export default function Resume() {
             <div className="uppercase font-normal text-lg opacity-70 pb-3">
               Software Engineer
             </div>
-            <div className="font-normal text-lg pb-3">Movidius / Intel</div>
+            <div className="font-normal text-lg pb-3">Intel Corporation</div>
             <div className="font-normal text-lg opacity-70 pb-3">
-              2015 - Present
+              November 2016 - Present
             </div>
             <ul className="list-disc">
               <li>
-                Developed a C++ model designed to simulate a dedicated CNN
-                hardware block for verification purposes, with a specific
-                emphasis on byte-level transactions.The model was required to
-                simulate each sub-block, along with handling transactions
-                between sub-blocks and interactions between memory and the CNN
-                unit.
+                Engineered a C++ model designed to simulate a dedicated CNN
+                (Convolutional Neural Network) hardware block for verification
+                purposes, with a specific emphasis on byte-level transactions.
+                The model was required to simulate each sub-block, along with
+                handling transactions between sub-blocks and interactions
+                between memory and the CNN unit.
               </li>
               <li>
-                Incorporated computer vision hardware blocks into a designated
-                architecture, enhancing existing blocks with additional
-                features. Conducted low-level verification using SystemVerilog.
+                Integrated various computer vision hardware blocks into our
+                proprietary architecture, enhancing existing blocks with
+                additional features (e.g. Stereo, Matrix Multiplication, Event
+                Processing Unit). Conducted low-level verification using
+                SystemVerilog.
               </li>
               <li>
-                Contributed to a Python and C++ compiler for convolutional
-                neural network models, enhancing its capabilities by
-                incorporating new operations. Integrated an arithmetic emulator
-                for reference result validation and utilized the compiler to
-                generate diverse datasets for power and performance measurements
-                on a specific neural network hardware block.
+                Extended our Python and C++ compiler for CNN models with new
+                operations. Integrated an arithmetic emulator for reference
+                result validation and utilized the compiler to generate diverse
+                datasets for power and performance measurements on a specific
+                neural network hardware block.
+              </li>
+              <li>
+                Actively mentored junior engineers across a wide spectrum of
+                tasks, including technical onboarding, coding and debugging.
               </li>
             </ul>
           </div>

@@ -24,7 +24,7 @@ export default function Home() {
         <p>
           Contact me on{" "}
           <Link
-            href="https://www.linkedin.com/in/ana-maria-popescu-731b7765/"
+            href="https://www.linkedin.com/in/anamaria-luca/"
             className="font-normal cursor-pointer hover:opacity-70"
           >
             LinkedIn
@@ -45,7 +45,7 @@ export default function Home() {
         {/* <Link href="https://github.com/popescuanamaria">
           <GitHubIcon />
         </Link>
-        <Link href="https://www.linkedin.com/in/ana-maria-popescu-731b7765/">
+        <Link href="https://www.linkedin.com/in/anamaria-luca/">
           <LinkedInIcon />
         </Link> */}
 
