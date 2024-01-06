@@ -21,11 +21,11 @@ function Storyline() {
 
   const floating_person = useParallax({
     speed: -60,
-    targetElement: target.current,
+    // targetElement: target.current,
   });
   const train = useParallax({
     speed: 90,
-    targetElement: target.current,
+    // targetElement: target.current,
   });
 
   return (
@@ -40,7 +40,7 @@ function Storyline() {
       className="h-screen"
     >
       <div
-        ref={floating_person.ref}
+        ref={floating_person.ref as React.RefObject<HTMLDivElement>}
         className="absolute bottom-[3%] left-[80%]"
       >
         <Image
@@ -51,7 +51,8 @@ function Storyline() {
         />
       </div>
 
-      <div ref={train.ref} className="absolute bottom-[35%] left-[55%]">
+      <div ref={train.ref as React.RefObject<HTMLDivElement>} 
+           className="absolute bottom-[35%] left-[55%]">
         <Image
           src="/storyline/planet.png"
           alt="planet"
