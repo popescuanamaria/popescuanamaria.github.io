@@ -7,7 +7,7 @@ export default function ProjectsMenu() {
   return (
     <div className="flex justify-center w-full">
       <div className="flex flex-col items-start w-full pt-20 pl-20 gap-y-20">
-        <div className="opacity-50">
+        <div className="opacity-50 cursor-pointer">
           <Link href="/about">
             <BackArrow />
           </Link>
