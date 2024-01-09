@@ -1,7 +1,14 @@
 "use client";
 
+import TopBar from "@/components/TopBar";
+
+
 export default function Resume() {
   return (
+    <div className="flex flex-col min-h-screen text-lg text-[#888888]">
+    <TopBar />
+
+    <div className="flex-1 h-full">
     <div className="flex justify-center w-full">
       <div className="flex flex-col items-center w-full sm:max-w-4xl pt-5 pb-20 gap-y-10">
         <div className="flex sm:justify-start w-full">
@@ -138,6 +145,8 @@ export default function Resume() {
           </div>
         </div>
       </div>
+    </div>
+    </div>
     </div>
   );
 }
