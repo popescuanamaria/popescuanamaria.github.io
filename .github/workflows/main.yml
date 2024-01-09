@@ -26,12 +26,18 @@ jobs:
         with:
           path: ./out
           retention-days: 1
-      # - name: Upload artifact
-      #   uses: actions/upload-artifact@main
-      #   with:
-      #     name: github-pages
-      #     path: out/artifact.tar
-      #     retention-days: 1
+      - name: Upload artifact
+        # uses: actions/upload-artifact@main
+        # with:
+        #   name: github-pages
+        #   path: out/artifact.tar
+        #   retention-days: 1
+        uses: actions/upload-artifact@v3
+        with:
+          name: github-pages
+          path: /home/runner/work/_temp/artifact.tar
+          retention-days: 1
+          if-no-files-found: error
 
   deploy:
     needs: build
