@@ -4,7 +4,12 @@ import Link from "next/link";
 import { LinkedInIcon, GitHubIcon } from "@/components/Icons";
 import TopBar from "@/components/TopBar";
 
+import posthog from 'posthog-js'
+
+posthog.init('phc_Unm5AJVVvOPi4H9d7BAvC7fv0B9nnFJOggFI5CgV8bP', { api_host: 'https://us.posthog.com' })
+
 export default function Home() {
+  posthog.capture('my event ana-popescu', { property: 'value' })
   return (
     <div className="flex flex-col min-h-screen text-lg text-[#888888]">
       <TopBar />
