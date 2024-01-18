@@ -17,6 +17,9 @@ export default function ProjectsMenu() {
             <li>
               <Link href="sandbox/storyline">Storyline</Link>
             </li>
+            <li>
+              <Link href="https://next.pandov.studio/">PANDOV Studio</Link>
+            </li>
           </ul>
         </div>
       </div>
