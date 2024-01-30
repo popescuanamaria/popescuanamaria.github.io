@@ -6,6 +6,13 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  --header-position: sticky;
+  --content-offset: 0px;
+  --header-height: 64px;
+  --header-mb: 0px;
+  --header-top: 0px;
+  --avatar-top: 0px;
 }
 
 @media (prefers-color-scheme: dark) {
