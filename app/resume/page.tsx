@@ -5,9 +5,8 @@ import clsx from "clsx";
 
 export default function Resume() {
   return (
-    <div className={clsx("flex flex-col min-h-screen text-lg text-[#888888]")}>
-      <TopBar />
-
+    <div className="">
+      Resume
       {/* <div className="flex-1 h-full">
         <div className="flex justify-center w-full">
           <div className="flex flex-col items-center w-full sm:max-w-4xl pt-5 pb-20 gap-y-10">
