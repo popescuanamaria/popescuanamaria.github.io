@@ -9,11 +9,11 @@ export default function Projects() {
         <div className="relative px-4 sm:px-8 lg:px-12">
           <div className="mx-auto max-w-2xl lg:max-w-5xl">
             <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-              <div className="flex flex-col gap-y-24 items-center">
+              <div className="flex flex-col gap-y-20 items-center">
                 <article className="group relative flex flex-col items-start">
                   <h2 className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
                     <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 sm:-inset-x-6 sm:rounded-2xl dark:bg-zinc-800/50"></div>
-                    <a href="/sandbox/storyline">
+                    <a href="/storyline">
                       <span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
                       <span className="relative z-10">
                         Create a small image-story
@@ -33,7 +33,7 @@ export default function Projects() {
                     December 2023
                   </time>
                   <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-                    Ongoint project where the story is told by incorporating various parallax scroll
+                    Ongoing project where the story is told by incorporating various parallax scroll
                     effects while horizontally scrolling. This is achieved
                     through a Next.js application styled with Tailwind CSS and
                     utilizing the react-scroll-parallax package to animate
@@ -71,7 +71,9 @@ export default function Projects() {
                     in progress.
                   </p>
                 </article>
+              <div className=""></div>
               </div>
+                    
             </div>
           </div>
         </div>

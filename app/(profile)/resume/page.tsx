@@ -110,7 +110,7 @@ export default function Resume() {
                     >
                       <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
                     </span>
-                    Iuly 2013 - Octomber 2013
+                    July 2013 - Octomber 2013
                   </p>
                   <ul className="relative z-10 mt-2 ml-3 list-disc text-sm text-zinc-600 dark:text-zinc-400">
                     <li>

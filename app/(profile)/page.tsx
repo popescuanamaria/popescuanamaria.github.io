@@ -7,9 +7,11 @@ import TopBar from "@/components/TopBar";
 
 import posthog from "posthog-js";
 
-import "./globals.css";
+import "../globals.css";
 
-posthog.init('phc_Unm5AJVVvOPi4H9d7BAvC7fv0B9nnFJOggFI5CgV8bP', { api_host: 'https://us.posthog.com' })
+posthog.init("phc_Unm5AJVVvOPi4H9d7BAvC7fv0B9nnFJOggFI5CgV8bP", {
+  api_host: "https://us.posthog.com",
+});
 
 const links = [
   { href: "/home", label: "Home" },
@@ -18,7 +20,7 @@ const links = [
 ];
 
 export default function Home() {
-  posthog.capture('my event ana-popescu', { property: 'value' })
+  posthog.capture("my event ana-popescu", { property: "value" });
   const { theme, setTheme } = useTheme();
 
   return (
@@ -37,22 +39,24 @@ export default function Home() {
                     Software engineer.
                   </h1>
                   <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                    I’m Ana-Maria, a software engineer recently based in
-                    Copenhagen, Denmark. I like the challenges from engineering
-                    and I like a lot of other stuff
+                    I am Ana-Maria, a software engineer who has recently moved
+                    to Copenhagen, Denmark. I like the brain challenges of
+                    engineering in my professional work and, in my free time, I
+                    enjoy activities such as hiking, cycling, cooking, and
+                    tending to plants.
                   </p>
                   <div className="mt-6 flex gap-6">
                     <a
                       className="group -m-1 p-1"
                       aria-label="Follow on GitHub"
-                      href="#"
+                      href="https://github.com/popescuanamaria"
                     >
                       <GitHubIcon />
                     </a>
                     <a
                       className="group -m-1 p-1"
                       aria-label="Follow on LinkedIn"
-                      href="#"
+                      href="https://www.linkedin.com/in/anamaria-luca/"
                     >
                       <LinkedInIcon />
                     </a>
@@ -74,7 +78,7 @@ export default function Home() {
                 data-nimg="1"
                 className="absolute inset-0 h-full w-full object-cover"
                 sizes="(min-width: 640px) 18rem, 11rem"
-                src="/profile/image1.jpeg"
+                src="/profile/image2.jpeg"
                 style={{ color: "transparent" }}
               ></img>
             </div>
@@ -88,7 +92,7 @@ export default function Home() {
                 data-nimg="1"
                 className="absolute inset-0 h-full w-full object-cover"
                 sizes="(min-width: 640px) 18rem, 11rem"
-                src="/profile/image2.jpeg"
+                src="/profile/image3.jpeg"
                 style={{ color: "transparent" }}
               ></img>
             </div>
@@ -102,7 +106,7 @@ export default function Home() {
                 data-nimg="1"
                 className="absolute inset-0 h-full w-full object-cover"
                 sizes="(min-width: 640px) 18rem, 11rem"
-                src="/profile/image3.jpeg"
+                src="/profile/image1.jpeg"
                 style={{ color: "transparent" }}
               ></img>
             </div>
@@ -116,7 +120,7 @@ export default function Home() {
                 data-nimg="1"
                 className="absolute inset-0 h-full w-full object-cover"
                 sizes="(min-width: 640px) 18rem, 11rem"
-                src="/profile/image1.jpeg"
+                src="/profile/image5.jpeg"
                 style={{ color: "transparent" }}
               ></img>
             </div>
@@ -130,7 +134,7 @@ export default function Home() {
                 data-nimg="1"
                 className="absolute inset-0 h-full w-full object-cover"
                 sizes="(min-width: 640px) 18rem, 11rem"
-                src="/profile/image2.jpeg"
+                src="/profile/image4.jpeg"
                 style={{ color: "transparent" }}
               ></img>
             </div>
@@ -141,160 +145,25 @@ export default function Home() {
             <div className="relative px-4 sm:px-8 lg:px-12">
               <div className="mx-auto max-w-2xl lg:max-w-5xl">
                 <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-                  <div className="flex flex-col gap-16">
-                    <article className="group relative flex flex-col items-start">
-                      <h2 className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
-                        <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 sm:-inset-x-6 sm:rounded-2xl dark:bg-zinc-800/50"></div>
-                        <a href="/articles/crafting-a-design-system-for-a-multiplanetary-future">
-                          <span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
-                          <span className="relative z-10">
-                            Crafting a design system for a multiplanetary future
-                          </span>
-                        </a>
-                      </h2>
-                      <time
-                        className="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-3.5"
-                        dateTime="2022-09-05"
-                      >
-                        <span
-                          className="absolute inset-y-0 left-0 flex items-center"
-                          aria-hidden="true"
-                        >
-                          <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
-                        </span>
-                        September 5, 2022
-                      </time>
-                      <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-                        Most companies try to stay ahead of the curve when it
-                        comes to visual design, but for Planetaria we needed to
-                        create a brand that would still inspire us 100 years
-                        from now when humanity has spread across our entire
-                        solar system.
-                      </p>
-                      <div
-                        aria-hidden="true"
-                        className="relative z-10 mt-4 flex items-center text-sm font-medium text-teal-500"
-                      >
-                        Read article
-                        <svg
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          aria-hidden="true"
-                          className="ml-1 h-4 w-4 stroke-current"
-                        >
-                          <path
-                            d="M6.75 5.75 9.25 8l-2.5 2.25"
-                            strokeWidth="1.5"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          ></path>
-                        </svg>
-                      </div>
-                    </article>
-                    <article className="group relative flex flex-col items-start">
-                      <h2 className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
-                        <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 sm:-inset-x-6 sm:rounded-2xl dark:bg-zinc-800/50"></div>
-                        <a href="/articles/introducing-animaginary">
-                          <span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
-                          <span className="relative z-10">
-                            Introducing Animaginary: High performance web
-                            animations
-                          </span>
-                        </a>
-                      </h2>
-                      <time
-                        className="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-3.5"
-                        dateTime="2022-09-02"
-                      >
-                        <span
-                          className="absolute inset-y-0 left-0 flex items-center"
-                          aria-hidden="true"
-                        >
-                          <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
-                        </span>
-                        September 2, 2022
-                      </time>
-                      <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-                        When you’re building a website for a company as
-                        ambitious as Planetaria, you need to make an impression.
-                        I wanted people to visit our website and see animations
-                        that looked more realistic than reality itself.
-                      </p>
-                      <div
-                        aria-hidden="true"
-                        className="relative z-10 mt-4 flex items-center text-sm font-medium text-teal-500"
-                      >
-                        Read article
-                        <svg
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          aria-hidden="true"
-                          className="ml-1 h-4 w-4 stroke-current"
-                        >
-                          <path
-                            d="M6.75 5.75 9.25 8l-2.5 2.25"
-                            strokeWidth="1.5"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          ></path>
-                        </svg>
-                      </div>
-                    </article>
-                    <article className="group relative flex flex-col items-start">
-                      <h2 className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
-                        <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 sm:-inset-x-6 sm:rounded-2xl dark:bg-zinc-800/50"></div>
-                        <a href="/articles/rewriting-the-cosmos-kernel-in-rust">
-                          <span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
-                          <span className="relative z-10">
-                            Rewriting the cosmOS kernel in Rust
-                          </span>
-                        </a>
-                      </h2>
-                      <time
-                        className="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-3.5"
-                        dateTime="2022-07-14"
-                      >
-                        <span
-                          className="absolute inset-y-0 left-0 flex items-center"
-                          aria-hidden="true"
-                        >
-                          <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
-                        </span>
-                        July 14, 2022
-                      </time>
-                      <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-                        When we released the first version of cosmOS last year,
-                        it was written in Go. Go is a wonderful programming
-                        language, but it’s been a while since I’ve seen an
-                        article on the front page of Hacker News about rewriting
-                        some important tool in Go and I see articles on there
-                        about rewriting things in Rust every single week.
-                      </p>
-                      <div
-                        aria-hidden="true"
-                        className="relative z-10 mt-4 flex items-center text-sm font-medium text-teal-500"
-                      >
-                        Read article
-                        <svg
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          aria-hidden="true"
-                          className="ml-1 h-4 w-4 stroke-current"
-                        >
-                          <path
-                            d="M6.75 5.75 9.25 8l-2.5 2.25"
-                            strokeWidth="1.5"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          ></path>
-                        </svg>
-                      </div>
-                    </article>
+                  <div className="max-w-2xl">
+                    <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                      Since I was a kid, I loved to dig and solve problems. In
+                      my work, I do the same — working hard to find not just a
+                      solution, but the most efficient one. Throughout my work
+                      experience, I've worked in various fields within my
+                      domain, and I believe that working on projects where
+                      efficiency was the focal point has also positively
+                      influenced my daily activities.
+                    </p>
+                    {/* <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                      I really enjoy hiking. I love taking in the beautiful
+                      views and the effort it takes to reach them.
+                    </p> */}
                   </div>
                   <div className="space-y-10 lg:pl-16 xl:pl-24">
                     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
                       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-                        <svg
+                        {/* <svg
                           viewBox="0 0 24 24"
                           fill="none"
                           strokeWidth="1.5"
@@ -311,7 +180,23 @@ export default function Home() {
                             d="M3 14.25h6.249c.484 0 .952-.002 1.316.319l.777.682a.996.996 0 0 0 1.316 0l.777-.682c.364-.32.832-.319 1.316-.319H21M8.75 6.5V4.75a2 2 0 0 1 2-2h2.5a2 2 0 0 1 2 2V6.5"
                             className="stroke-zinc-400 dark:stroke-zinc-500"
                           ></path>
+                        </svg> */}
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth={1.5}
+                          stroke="currentColor"
+                          className="w-6 h-6"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z"
+                            className="stroke-zinc-400 dark:stroke-zinc-500"
+                          />
                         </svg>
+
                         <span className="ml-3">Work</span>
                       </h2>
                       <ol className="mt-6 space-y-4">

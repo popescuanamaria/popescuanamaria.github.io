@@ -8,7 +8,7 @@ import { ParallaxProvider } from "react-scroll-parallax";
 
 export default function StorylinePage() {
   return (
-    <div>
+    <div className="w-full h-full">
       <ParallaxProvider scrollAxis="horizontal">
         <Storyline />
       </ParallaxProvider>
@@ -99,6 +99,7 @@ function Storyline() {
 
   const [screenWidth, screenHeight] = useDeviceSize();
 
+  let new_height = Math.round(2300 / (2300 / screenHeight))+"px";
   let new_width = Math.round(15277 / (2300 / screenHeight));
 
   const test = new_width+"px";
@@ -110,14 +111,13 @@ function Storyline() {
     <div className="w-full h-screen object-contain overflow-y-hidden">
       <div
         ref={target}
+        className="h-full"
         style={{
-          backgroundImage: "url('/storyline/base_image.png')",
+          backgroundImage: "url('../storyline/base_image.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          // width: "5500px",
           width: test,
         }}
-        className="h-full"
       >
         {/* <div
           ref={floating_person.ref as React.RefObject<HTMLDivElement>}
