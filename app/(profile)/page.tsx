@@ -36,7 +36,7 @@ export default function Home() {
               <div className="mx-auto max-w-2xl lg:max-w-5xl">
                 <div className="max-w-2xl">
                   <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-                    Software engineer.
+                    Software engineer
                   </h1>
                   <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
                     I am Ana-Maria, a software engineer who has recently moved
@@ -150,7 +150,7 @@ export default function Home() {
                       Since I was a kid, I loved to dig and solve problems. In
                       my work, I do the same — working hard to find not just a
                       solution, but the most efficient one. Throughout my work
-                      experience, I've worked in various fields within my
+                      experience, I&apos;ve worked in various fields within my
                       domain, and I believe that working on projects where
                       efficiency was the focal point has also positively
                       influenced my daily activities.

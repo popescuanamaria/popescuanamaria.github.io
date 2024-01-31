@@ -46,7 +46,7 @@ export default function Projects() {
                     <a href="https://next.pandov.studio">
                       <span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
                       <span className="relative z-10">
-                        Implement a website for an artist's studio
+                        Implement a website for an artist&apos;s studio
                       </span>
                     </a>
                   </h2>
@@ -63,7 +63,7 @@ export default function Projects() {
                     August 2023
                   </time>
                   <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-                    Ongoing project involving the creation of the studio's
+                    Ongoing project involving the creation of the studio&apos;s
                     website in close collaboration with the main artist. The
                     development process includes iterating through various
                     design variations, employing a Next.js application, and
