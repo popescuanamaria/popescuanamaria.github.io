@@ -29,7 +29,7 @@ export default function Resume() {
                     </span>
                     November 2016 - Present
                   </p>
-                  <ul className="relative z-10 mt-2 ml-3 list-disc text-sm text-zinc-600 dark:text-zinc-400">
+                  <ul className="relative z-10 mt-2 ml-3 list-disc text-sm text-justify text-zinc-600 dark:text-zinc-400">
                     <li>
                       Engineered the C++ model designed to simulate our
                       dedicated CNN (Convolutional Neural Network) hardware
@@ -78,7 +78,7 @@ export default function Resume() {
                     </span>
                     Octomber 2013 - November 2016
                   </p>
-                  <ul className="relative z-10 mt-2 ml-3 list-disc text-sm text-zinc-600 dark:text-zinc-400">
+                  <ul className="relative z-10 mt-2 ml-3 list-disc text-sm text-justify text-zinc-600 dark:text-zinc-400">
                     <li>
                       Developed diverse image processing filters in C and
                       optimized them using assembly language for our Movidius
@@ -112,7 +112,7 @@ export default function Resume() {
                     </span>
                     July 2013 - Octomber 2013
                   </p>
-                  <ul className="relative z-10 mt-2 ml-3 list-disc text-sm text-zinc-600 dark:text-zinc-400">
+                  <ul className="relative z-10 mt-2 ml-3 list-disc text-sm text-justify text-zinc-600 dark:text-zinc-400">
                     <li>
                       Participated in an HDR project utilizing a designated
                       image sensor. The objective was to achieve the
@@ -153,13 +153,13 @@ export default function Resume() {
                       <dl className="flex flex-auto flex-wrap gap-x-2 mt-2">
                         <dt className="sr-only">Email Address</dt>
                         <dd className="text-xs text-zinc-500 dark:text-zinc-400">
-                          <a href="mailto:luca.anamaria93@gmail.com">
-                            luca.anamaria93@gmail.com
+                          <a href="#">
+                            luca.anamaria93[at]gmail.com
                           </a>
                         </dd>
                       </dl>
                     </li>
-                    <li className="flex gap-4">
+                    {/* <li className="flex gap-4">
                       <div className="relative mt-1 flex h-6 w-6 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -183,7 +183,7 @@ export default function Resume() {
                           +4550271499
                         </dd>
                       </dl>
-                    </li>
+                    </li> */}
                     <li className="flex gap-4">
                       <div className="relative mt-1 flex h-6 w-6 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                         <LinkedInIcon />
@@ -265,6 +265,14 @@ export default function Resume() {
                     </li>
                     <li className="font-semibold text-xs text-zinc-500 dark:text-zinc-400">
                       <p>Algorithm development and optimization</p>
+                    </li>
+                    <li className="text-xs text-zinc-500 dark:text-zinc-400">
+                      <p>
+                        <span className="font-semibold">
+                         Web development (beginner):
+                        </span>{" "}
+                        Typescript, React
+                      </p>
                     </li>
                   </ol>
                 </div>
