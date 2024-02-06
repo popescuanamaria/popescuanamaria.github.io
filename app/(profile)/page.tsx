@@ -153,12 +153,8 @@ export default function Home() {
                       experience, I&apos;ve worked in various fields within my
                       domain, and I believe that working on projects where
                       efficiency was the focal point has also positively
-                      influenced my daily activities.
+                      influenced my thinking and my aproach on daily activities.
                     </p>
-                    {/* <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                      I really enjoy hiking. I love taking in the beautiful
-                      views and the effort it takes to reach them.
-                    </p> */}
                   </div>
                   <div className="space-y-10 lg:pl-16 xl:pl-24">
                     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
